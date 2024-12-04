@@ -1,0 +1,6 @@
+resources:
+- deploy/reviewbot.yaml
+images:
+- name: aslan-spock-register.qiniu.io/qa/reviewbot:latest
+  newName: aslan-spock-register.qiniu.io/qa/reviewbot
+  newTag: latest
