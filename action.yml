@@ -1,1 +1,9 @@
-test123
+name: "reviewbot"
+author: "qiniu"
+description: "for code analysis test"
+runs:
+  using: "docker"
+  image: "docker://ghcr.io/never/reviewbot:v1"
+branding:
+  icon: "check-square"
+  color: "white"
